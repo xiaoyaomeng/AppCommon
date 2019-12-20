@@ -1,7 +1,7 @@
 # AppCommon
-App的基础类库 (持续更新)
+Common classes for android app (Updating)
 
-##### notice : all classes pre suffix is 'PhXxxxx' for search all class  
+##### notice : all classes pre-suffix is 'PhXxxxx' for search all class  
 
 # 引入项目
 
