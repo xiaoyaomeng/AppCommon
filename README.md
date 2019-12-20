@@ -1,6 +1,8 @@
 # AppCommon
 App的基础类库 (持续更新)
 
+##### notice : all classes pre suffix is 'PhXxxxx' for search all class  
+
 # 引入项目
 
 #### Gradle dependency:
