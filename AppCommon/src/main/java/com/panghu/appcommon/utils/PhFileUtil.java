@@ -8,8 +8,6 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.text.format.Formatter;
 
-import com.panghu.appcommon.utils.temp.StringUtils;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.Closeable;
@@ -263,7 +261,7 @@ public class PhFileUtil {
      * @return
      */
     public static String getFileName(String filePath) {
-        if (StringUtils.isEmpty(filePath)) {
+        if (PhStringUtil.isEmpty(filePath)) {
             return filePath;
         }
 

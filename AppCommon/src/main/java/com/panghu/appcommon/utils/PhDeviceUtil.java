@@ -15,7 +15,6 @@ import android.view.WindowManager;
 import android.webkit.WebView;
 
 import com.panghu.appcommon.utils.io.FileUtils;
-import com.panghu.appcommon.utils.temp.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -54,15 +53,15 @@ public class PhDeviceUtil {
      * @return
      */
     public static String getUserAgent(Context context) {
-        if (StringUtils.isEmpty(mWebViewUA)) {
+        if (PhStringUtil.isEmpty(mWebViewUA)) {
             final String system_ua = System.getProperty("http.agent");
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
                 mWebViewUA = new WebView(context).getSettings().getDefaultUserAgent(context)
-                        + (!StringUtils.isEmpty(system_ua) ? "__" + system_ua : "");
+                        + (!PhStringUtil.isEmpty(system_ua) ? "__" + system_ua : "");
                 return mWebViewUA;
             } else {
                 mWebViewUA = new WebView(context).getSettings().getUserAgentString()
-                        + (!StringUtils.isEmpty(system_ua) ? "__" + system_ua : "");
+                        + (!PhStringUtil.isEmpty(system_ua) ? "__" + system_ua : "");
                 return mWebViewUA;
             }
         }

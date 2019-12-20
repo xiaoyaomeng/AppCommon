@@ -5,9 +5,6 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
-
-import com.panghu.appcommon.utils.temp.AppUtils;
 
 import java.io.File;
 import java.security.MessageDigest;
@@ -272,7 +269,7 @@ public class PhAppUtil {
             PackageInfo pis = context.getPackageManager().getPackageInfo(packageName, PackageManager.GET_SIGNATURES);
             return hexdigest(pis.signatures[0].toByteArray());
         } catch (PackageManager.NameNotFoundException e) {
-            throw new RuntimeException(AppUtils.class.getName() + "the " + packageName + "'s application not found");
+            throw new RuntimeException(PhAppUtil.class.getName() + "the " + packageName + "'s application not found");
         }
     }
 
