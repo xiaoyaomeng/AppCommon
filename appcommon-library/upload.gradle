@@ -1,75 +1,118 @@
-def siteUrl = '' //此处为github项目地址
-def gitUrl = ''//此处为git地址 ******.git
-group = "" //唯一区别码 一般可以使用packageId
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
+// load properties
+Properties properties = new Properties()
+File localPropertiesFile = project.file("local.properties");
+if (localPropertiesFile.exists()) {
+    properties.load(localPropertiesFile.newDataInputStream())
+}
+File projectPropertiesFile = project.file("project.properties");
+if (projectPropertiesFile.exists()) {
+    properties.load(projectPropertiesFile.newDataInputStream())
+}
+
+// read properties
+def projectName = properties.getProperty("project.name")
+def projectDesc = properties.getProperty("project.desc")
+def projectGroupId = properties.getProperty("project.groupId")
+def projectArtifactId = properties.getProperty("project.artifactId")
+def projectVersionName = properties.getProperty("project.version")
+def projectPackaging = properties.getProperty("project.packaging")
+def projectSiteUrl = properties.getProperty("project.siteUrl")
+def projectGitUrl = properties.getProperty("project.gitUrl")
+def projectIssueTrackerUrl = properties.getProperty("project.issueTrackerUrl")
+def developerId = properties.getProperty("developer.id")
+def developerName = properties.getProperty("developer.name")
+def developerEmail = properties.getProperty("developer.email")
+
+def bintrayUser = properties.getProperty("bintray.user")
+def bintrayApikey = properties.getProperty("bintray.apikey")
+
+// This generates POM.xml with proper parameters
 install {
     repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
-        pom {
-            project {
-                packaging 'aar'
-                name 'AppCommon' //项目名称
-                url siteUrl
-                licenses {
-                    license {
-                        name 'The Apache Software License, Version 2.0'
-                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                    }
+        pom.project {
+            name projectName
+            groupId projectGroupId
+            artifactId projectArtifactId
+            packaging projectPackaging
+
+            version projectVersionName
+            url projectSiteUrl
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                 }
-                developers {
-                    developer {
-                        id 'appcommon' //jcenter id
-                        name 'lijiangping' //jcenter name
-                        email 'lijiangping.zz@gmail.com' //jcenter mail
-                    }
+            }
+            developers {
+                developer {
+                    id developerId
+                    name developerName
+                    email developerEmail
                 }
-                scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
-                }
+            }
+            scm {
+                connection projectGitUrl
+                developerConnection projectGitUrl
+                url projectSiteUrl
             }
         }
     }
 }
 
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
+task androidJavadocs(type: Javadoc) {
+    source = android.sourceSets.main.java.source
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        author true
+        version projectVersionName
+        links "http://docs.oracle.com/javase/7/docs/api"
+        title projectName
+    }
+}
+
+task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+    from androidJavadocs.destinationDir
+    classifier = 'javadoc'
+}
+
+task androidSourcesJar(type: Jar) {
+    from android.sourceSets.main.java.source
     classifier = 'sources'
 }
 
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
+if (JavaVersion.current().isJava8Compatible()) {
+    allprojects {
+        tasks.withType(Javadoc) {
+            options.addStringOption('Xdoclint:none', '-quiet')
+        }
+    }
 }
 
 artifacts {
-    archives javadocJar
-    archives sourcesJar
+    archives androidSourcesJar
+    archives androidJavadocsJar
 }
 
-//local.properties 内添加 bintray.user bintray.apikey
-Properties properties = new Properties()
-boolean isHasFile = false
-if (project.rootProject.file('local.properties') != null){
-    isHasFile = true
-    properties.load(project.rootProject.file('local.properties').newDataInputStream())
-}
+// bintray configuration
 bintray {
-    user = isHasFile ? properties.getProperty("bintray.user") : System.getenv("bintray.user")
-    key = isHasFile ? properties.getProperty("bintray.apikey") : System.getenv("bintray.apikey")
+    user = bintrayUser
+    key = bintrayApikey
+    group = projectGroupId
     configurations = ['archives']
     pkg {
-        repo = "" //jcenter仓库名 此处注意要现在jcenter创建这个名称的repo 不然上传报错
-        name = "" //jcenter 项目名
-        websiteUrl = siteUrl
-        vcsUrl = gitUrl
+        repo = "appcommon"
+        name = projectName
+        websiteUrl = projectSiteUrl
+        vcsUrl = projectGitUrl
+        desc = projectDesc
+        issueTrackerUrl = projectIssueTrackerUrl
         licenses = ["Apache-2.0"]
         publish = true
+        publicDownloadNumbers = true
     }
 }
