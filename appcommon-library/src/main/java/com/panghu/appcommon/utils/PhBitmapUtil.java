@@ -20,7 +20,7 @@ import java.io.IOException;
  * @desc Bitmap操作类:缩放,类型转换
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhBitmapUtil {

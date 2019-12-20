@@ -10,6 +10,8 @@ import android.text.TextUtils;
  * @desc
  * @autor lijiangping
  * @wechat ljphhj
+ * @email lijiangping.zz@gmail.com
+ *
  **/
 public class PhPermissionUtil {
 

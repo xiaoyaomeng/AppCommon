@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
  * @desc 验证类操作(正则)
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhVerificationUtil {

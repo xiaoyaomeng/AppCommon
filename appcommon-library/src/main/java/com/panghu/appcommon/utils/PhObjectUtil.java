@@ -12,7 +12,7 @@ import java.io.ObjectOutputStream;
  * @desc 对象操作类
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhObjectUtil {

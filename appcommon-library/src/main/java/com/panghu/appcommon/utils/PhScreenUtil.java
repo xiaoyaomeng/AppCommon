@@ -21,6 +21,7 @@ import java.lang.reflect.Method;
  * @desc
  * @autor lijiangping
  * @wechat ljphhj
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhScreenUtil {

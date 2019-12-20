@@ -8,7 +8,7 @@ import java.util.Random;
  * @desc 随机数工具类
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhRandomUtil {

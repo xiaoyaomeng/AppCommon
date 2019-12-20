@@ -7,7 +7,7 @@ package com.panghu.appcommon.utils;
  *
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  */
 public class PhNumberUtil {

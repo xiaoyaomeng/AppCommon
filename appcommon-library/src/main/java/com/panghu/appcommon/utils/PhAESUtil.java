@@ -23,7 +23,7 @@ import javax.crypto.spec.SecretKeySpec;
  *
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  */
 public class PhAESUtil {

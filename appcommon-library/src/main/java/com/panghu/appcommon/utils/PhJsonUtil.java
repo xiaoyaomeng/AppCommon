@@ -15,6 +15,7 @@ import java.util.Map;
  * @desc json转换类
  * @autor lijiangping
  * @wechat ljphhj
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhJsonUtil {

@@ -10,7 +10,7 @@ import android.os.Looper;
  * @desc 维护一个全局的主线程Handler
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhMainHandlerUtil {

@@ -14,7 +14,16 @@ import android.telephony.TelephonyManager;
 
 import java.io.File;
 import java.lang.reflect.Method;
-
+/**
+ * PhNetWorkStatusUtils
+ * 网络情况获取类
+ *
+ * @desc
+ * @autor lijiangping
+ * @wechat ljphhj
+ * @email lijiangping.zz@gmail.com
+ *
+ **/
 public class PhNetWorkStatusUtils {
 
     /**

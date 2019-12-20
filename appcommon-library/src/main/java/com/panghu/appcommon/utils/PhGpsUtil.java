@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
  * @desc Gps相关操作类
  * @autor lijiangping
  * @wechat ljphhj
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhGpsUtil {

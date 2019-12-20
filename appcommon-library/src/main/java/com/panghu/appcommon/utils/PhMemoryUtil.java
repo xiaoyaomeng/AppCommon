@@ -11,7 +11,7 @@ import android.text.format.Formatter;
  * @desc 设备内存操作类
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhMemoryUtil {

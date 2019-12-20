@@ -15,7 +15,7 @@ import javax.crypto.spec.SecretKeySpec;
  * @desc MD5操作类
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhMD5Util {

@@ -11,7 +11,7 @@ import android.os.Vibrator;
  * @desc 基础震动/规律震动/
  * @autor lijiangping
  * @wechat ljphhj
- * @date 2019年12月19日17:27:12
+ * @email lijiangping.zz@gmail.com
  *
  **/
 public class PhVibrateUtil {
