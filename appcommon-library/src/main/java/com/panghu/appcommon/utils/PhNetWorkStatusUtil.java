@@ -1,8 +1,6 @@
 package com.panghu.appcommon.utils;
 
 import android.annotation.SuppressLint;
-import android.app.PendingIntent;
-import android.app.PendingIntent.CanceledException;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -13,9 +11,9 @@ import android.provider.Settings;
 import android.telephony.TelephonyManager;
 
 import java.io.File;
-import java.lang.reflect.Method;
+
 /**
- * PhNetWorkStatusUtils
+ * PhNetWorkStatusUtil
  * 网络情况获取类
  *
  * @desc
@@ -24,7 +22,7 @@ import java.lang.reflect.Method;
  * @email lijiangping.zz@gmail.com
  *
  **/
-public class PhNetWorkStatusUtils {
+public class PhNetWorkStatusUtil {
 
     /**
      * 中国移动cmwap
@@ -72,7 +70,7 @@ public class PhNetWorkStatusUtils {
     /**
      * Private constructor to forbid instantiation.
      */
-    private PhNetWorkStatusUtils() {
+    private PhNetWorkStatusUtil() {
     }
 
     /**
@@ -433,7 +431,7 @@ public class PhNetWorkStatusUtils {
      */
     public static boolean hasNetWork(Context context) {
         try {
-            boolean bConnection = PhNetWorkStatusUtils.getNetworkConnectionStatus(context);
+            boolean bConnection = PhNetWorkStatusUtil.getNetworkConnectionStatus(context);
             if (!bConnection) {
                 return false;
             }
@@ -446,10 +444,10 @@ public class PhNetWorkStatusUtils {
 
     public static boolean isSupportNetWork(final Context ctx) {
         try {
-            boolean bCMWap = PhNetWorkStatusUtils.isCMWap(ctx);
-            boolean b3GWAP = PhNetWorkStatusUtils.is3GWAP(ctx);
-            boolean bCTWap = PhNetWorkStatusUtils.isCTWap(ctx);
-            boolean bUNIWap = PhNetWorkStatusUtils.isUNIWap(ctx);
+            boolean bCMWap = PhNetWorkStatusUtil.isCMWap(ctx);
+            boolean b3GWAP = PhNetWorkStatusUtil.is3GWAP(ctx);
+            boolean bCTWap = PhNetWorkStatusUtil.isCTWap(ctx);
+            boolean bUNIWap = PhNetWorkStatusUtil.isUNIWap(ctx);
             if (b3GWAP || bCMWap || bCTWap || bUNIWap) {
                 return false;
             }

@@ -41,6 +41,26 @@ public class PhDeviceUtil {
 
     private static final String TAG = PhDeviceUtil.class.getSimpleName();
 
+    /**
+     * ART
+     *
+     * @return
+     */
+    public static boolean isART() {
+        final String vmVersion = System.getProperty("java.vm.version");
+        return vmVersion != null && vmVersion.startsWith("2");
+    }
+
+    /**
+     * DALVIK
+     *
+     * @return
+     */
+    public static boolean isDalvik() {
+        final String vmVersion = System.getProperty("java.vm.version");
+        return vmVersion != null && vmVersion.startsWith("1");
+    }
+
     //Ethernet Mac Address
     private static final String ETH0_MAC_ADDRESS = "/sys/class/net/eth0/address";
 
@@ -308,6 +328,21 @@ public class PhDeviceUtil {
         return mIMSI;
     }
 
+    /**
+     * 获取手机号
+     *
+     * need permissions:
+     * <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+     * <uses-permission android:name="android.permission.READ_SMS" />
+     *
+     * @param context
+     * @return
+     */
+    @SuppressLint("MissingPermission")
+    public static String getLine1Number(Context context) {
+        TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+        return tm.getLine1Number();
+    }
 
     /**
      * 获取 ANDROID_ID

@@ -1,15 +1,21 @@
 package com.panghu.appcommon.utils;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.DownloadManager;
 import android.app.PendingIntent;
+import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
 import android.widget.Toast;
 
 import java.io.File;
@@ -104,7 +110,7 @@ public class PhOptionAppUtil {
     }
 
     /**
-     * 调用系统相册打开图片
+     * 调用系统相册打开某个图片
      *
      * @param mContext
      * @param imagePath
@@ -117,6 +123,118 @@ public class PhOptionAppUtil {
         intent.setDataAndType(uri, "image/*");
         mContext.startActivity(intent);
     }
+
+    public static final int PICTURE_REQ_CODE = 0x0001;
+
+    /**
+     * 打开图库
+     *
+     * @param activity
+     */
+    public void openPictureUI(Activity activity) {
+        Intent intent = new Intent(Intent.ACTION_PICK);
+        intent.setDataAndType(android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+        activity.startActivityForResult(intent, PICTURE_REQ_CODE);
+    }
+
+    /**
+     * 在浏览器中搜索
+     *
+     * @param context
+     * @param string
+     */
+    public static void search(Context context, String string) {
+        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+        intent.putExtra(SearchManager.QUERY, string);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 在浏览器中打开一个Url
+     *
+     * @param context
+     * @param url
+     */
+    public static void openUrl(Context context, String url) {
+        Uri uri = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 打开拨号app
+     *
+     * @param context
+     */
+    public static void openDial(Context context) {
+        Intent intent = new Intent(Intent.ACTION_CALL_BUTTON);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 直接拨打电话
+     *
+     * @param context
+     * @param number
+     */
+    public static void openDial(Context context, String number) {
+        Uri uri = Uri.parse("tel:" + number);
+        Intent intent = new Intent(Intent.ACTION_DIAL, uri);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 直接拨打电话
+     * requires Permission "android.permission.CALL_PHONE"
+     *
+     * @param context
+     * @param number
+     */
+    @SuppressLint("MissingPermission")
+    public static void call(Context context, String number) {
+        Uri uri = Uri.parse("tel:" + number);
+        Intent intent = new Intent(Intent.ACTION_CALL, uri);
+        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+        context.startActivity(intent);
+    }
+
+    /**
+     * 打开相机app
+     *
+     * @param context
+     */
+    public static void openCamera(Context context) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 拍照
+     * this photo data will be returned in onActivityResult()
+     *
+     * @param activity
+     * @param requestCode
+     */
+    public static void takeCamera(Activity activity, int requestCode) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        activity.startActivityForResult(intent, requestCode);
+    }
+
+    /**
+     * 选择照片
+     * this photo data will be returned in onActivityResult()
+     *
+     * @param activity
+     * @param requestCode
+     */
+    public static void choosePhoto(Activity activity, int requestCode) {
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("image/*");
+        activity.startActivityForResult(intent, requestCode);
+    }
+
     /**
      * 调用系统相册打开视频
      *

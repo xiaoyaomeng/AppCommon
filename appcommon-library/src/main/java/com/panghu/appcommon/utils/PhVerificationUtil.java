@@ -19,6 +19,7 @@ package com.panghu.appcommon.utils;
 import android.text.TextUtils;
 
 import java.text.SimpleDateFormat;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -31,6 +32,38 @@ import java.util.regex.Pattern;
  *
  **/
 public class PhVerificationUtil {
+
+    /**
+     * 验证url是否有效
+     *
+     * @param url
+     * @return
+     */
+    public static boolean matcherUrl1(String url) {
+        if (PhStringUtil.isNotEmpty(url)) {
+            String regex = "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+            Pattern patt = Pattern.compile(regex);
+            Matcher matcher = patt.matcher(url.toLowerCase());
+            return matcher.matches();
+        }
+        return false;
+    }
+
+
+    /**
+     * Url合法性匹配
+     * @param url
+     * @return
+     */
+    public static boolean matcherUrl2(String url) {
+        if (PhStringUtil.isNotEmpty(url)) {
+            String regex = "^(([hH][tT]{2}[pP][sS]?)|([fF][tT][pP]))\\:\\/\\/[\\w-]+\\.\\w{2,4}(\\/.*)?$";
+            return matchRegex(regex, url.toLowerCase());
+        }
+        return false;
+    }
+
+
     /**
      * 真实姓名匹配
      * @param value
@@ -105,17 +138,6 @@ public class PhVerificationUtil {
         String regex = "\\b((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\" +
                 "d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\" +
                 "d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\b";
-        return matchRegex(regex, value.toLowerCase());
-    }
-
-    /**
-     * Url合法性匹配
-     * @param value
-     * @return
-     */
-    public static boolean matcherUrl(String value) {
-        //String regex = "^(([hH][tT]{2}[pP][sS]?)|([fF][tT][pP]))\\:\\/\\/[wW]{3}\\.[\\w-]+\\.\\w{2,4}(\\/.*)?$";
-        String regex = "^(([hH][tT]{2}[pP][sS]?)|([fF][tT][pP]))\\:\\/\\/[\\w-]+\\.\\w{2,4}(\\/.*)?$";
         return matchRegex(regex, value.toLowerCase());
     }
 
