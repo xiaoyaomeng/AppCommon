@@ -23,7 +23,7 @@ import java.util.List;
 public class PhLogUtil {
 
     public static String customTagPrefix = "";
-    public static String sTAG = "Log";
+    public static String sTAG = "PhLogUtil";
 
     private PhLogUtil() {
     }
@@ -108,9 +108,9 @@ public class PhLogUtil {
         }
     }
 
-    @Deprecated
     public static void e(String content) {
-        if (!checkLogSwitch()) return;
+        if (!checkLogSwitch())
+            return;
         Log.e(sTAG, checkEmpty(content));
     }
 
