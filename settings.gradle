@@ -1,1 +1,1 @@
-include ':app', ':appcommon-utils', ':appcommon-widgets', ':appcommon-network'
+include ':app', ':appcommon-utils', ':appcommon-widgets', ':appcommon-network', ':appcommon-module'

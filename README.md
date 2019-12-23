@@ -5,14 +5,14 @@ Common classes for android app (Updating)
 
 # 引入项目
 
-#### Gradle dependency:
+#### Gradle dependency
 
 ```
 compile 'com.lijiangping:appcommon:1.0.1'
 ```
 
 
-#### Maven dependency:
+#### Maven dependency
 
 ```
 <dependency>
@@ -22,3 +22,12 @@ compile 'com.lijiangping:appcommon:1.0.1'
   <type>pom</type>
 </dependency>
 ```
+
+#### Introduce
+appcommon-module : 一些常用的模块集合
+
+appcommon-network : 网络请求框架的封装
+
+appcommon-utils : 常用工具集合
+
+appcommon-widgets : 常用自定义view
