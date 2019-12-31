@@ -11,6 +11,8 @@
 /.idea/misc.xml
 /app/build/
 /appcommon/build/
-/appcommon/.idea
+/appcommon-library/build/
+/appcommon*/build/
+/appcommon*/.idea
 .DS_Store
 /build
