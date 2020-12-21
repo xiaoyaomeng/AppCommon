@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.panghu.uikit.view.spinner.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_48dp"
+    android:background="@drawable/bg_checkable_item"
+    android:gravity="center_vertical">
+
+    <com.glip.widgets.icon.FontIconTextView
+        android:id="@+id/filterIconView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:paddingStart="16dp"
+        android:textColor="@color/colorPaletteOnBgIII300"
+        android:textSize="@dimen/font_icon_x_large_size"
+        android:visibility="gone" />
+
+    <CheckedTextView
+        android:id="@+id/filterTextView"
+        style="@style/GlipWidget.TextView.SpinnerDropDownItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="@dimen/text_size_medium" />
+</com.panghu.uikit.view.spinner.CheckableLinearLayout>

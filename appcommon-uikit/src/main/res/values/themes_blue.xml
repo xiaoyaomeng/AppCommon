@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+
+    <style name="GlipBlueTheme" parent="GlipBaseTheme">
+
+        <item name="colorPrimary">@color/colorPalettePrimary</item>
+        <item name="colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="colorAccent">@color/colorPalettePrimary</item>
+
+        <!-- Controls colors -->
+        <item name="colorControlNormal">@color/colorPaletteOnBgIII300</item>
+        <item name="colorControlActivated">@color/colorPalettePrimary</item>
+        <item name="colorControlHighlight">@color/colorPaletteRippleOnWhite</item>
+
+        <item name="colorButtonNormal">@color/colorPaletteOnBgIII300</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/colorPaletteBgIII</item>
+        <item name="android:colorBackground">@color/colorPaletteBgIII</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/colorPaletteOnBgVI100</item>
+        <item name="android:textColorSecondary">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColor">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColorHint">@color/colorPaletteOnBgIII300</item>
+
+        <!-- Text styles -->
+        <item name="android:textAppearance">@style/GlipWidget.TextView</item>
+        <item name="android:editTextStyle">@style/GlipWidget.EditText</item>
+        <item name="android:progressBarStyle">@style/GlipWidget.ProgressBar</item>
+
+        <item name="toolbarStyle">@style/GlipWidget.Toolbar</item>
+        <item name="alertDialogTheme">@style/GlipTheme.CompatAlertDialog</item>
+        <item name="android:alertDialogTheme">@style/GlipTheme.AlertDialog</item>
+
+        <!-- Fast scroll styles-->
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+    </style>
+
+</resources>

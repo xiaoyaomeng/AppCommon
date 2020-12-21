@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="hour_format">%1$d 小时</string>
+    <string name="hour_minute_format">%1$d 小时 %2$d 分钟</string>
+    <string name="minute_second_format">%1$d 分钟 %2$d 秒</string>
+    <string name="minute_format">%1$d 分钟</string>
+    <string name="second_format">%1$d 秒</string>
+    <string name="enable">启用</string>
+    <string name="hello">您好</string>
+    <string name="please_wait">请稍候&#8230;</string>
+    <string name="messages_empty_start_conversation">开始与同事或团队对话。</string>
+    <string name="network_error_tap_to_retry">网络错误，请点击以重试。</string>
+    <string name="no_browser_app_found">找不到浏览器应用</string>
+    <string name="no_email_app_found">找不到电子邮件应用</string>
+    <string name="no_internet_connection">无互联网连接</string>
+    <string name="no_internet_connection_message">请检查网络连接并重试。</string>
+    <string name="none">无</string>
+    <string name="ok">确定</string>
+    <string name="open_in">打开方式&#8230;</string>
+    <string name="send_email_ellipsis">发送电子邮件&#8230;</string>
+    <string name="please_install_a_browser_app">请安装浏览器应用。</string>
+    <string name="please_install_an_email_app">请安装电子邮件应用。</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="yesterday">昨天</string>
+    <string name="remove">移除</string>
+    <string name="cannot_connect_to_server_title">服务器不可用</string>
+    <string name="cannot_connect_to_server_content">抱歉，服务器暂时出了点小问题。我们的工程师正在努力修复。</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">显示：</string>
+    <string name="single_item_with_toggle_on_description">%1$s、开、开关</string>
+    <string name="single_item_with_toggle_off_description">%1$s、关、开关</string>
+    <string name="summary_item_with_toggle_on_description">%1$s、%2$s、开、开关</string>
+    <string name="summary_item_with_toggle_off_description">%1$s、%2$s、关、开关</string>
+    <string name="sso_login_authentication_content">%1$s 需要用户名和密码</string>
+    <string name="authentication_required">需要验证</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="sign_in">登录</string>
+    <plurals name="how_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+</resources>

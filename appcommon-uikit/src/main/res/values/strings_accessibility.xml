@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">back</string>
+    <string name="accessibility_not_selected_item">Not selected, %1$s</string>
+    <string name="accessibility_selected_item">Selected, %1$s</string>
+    <string name="accessibility_next_keyboard">Next keyboard, %1$s</string>
+    <string name="accessibility_english_us">English US</string>
+    <string name="accessibility_number_pad">number pad</string>
+    <string name="accessibility_filter_show_colon">Filter, show:</string>
+    <string name="accessibility_more">More</string>
+    <string name="accessibility_close">Close</string>
+    <string name="accessibility_item_disable">%1$s, Dim</string>
+</resources>

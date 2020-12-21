@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="GlipV23Theme" parent="GlipV21Theme">
+        <item name="android:statusBarColor">@color/colorPaletteBgIV</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="GlipBaseTheme" parent="GlipV23Theme" />
+
+    <style name="GlipTheme.TranslucentStatus">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="GlipTheme.Dark" >
+        <item name="colorControlNormal">@color/colorPaletteBgIII</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/colorPaletteOnBgIII200</item>
+        <item name="android:windowBackground">@color/colorPaletteBgVI</item>
+    </style>
+
+    <style name="GlipTheme.DatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">@color/colorPalettePrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="android:colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:textColor">@color/colorPalettePrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPaletteOnBgVI100</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPaletteOnBgVI100</item>
+        <item name="android:datePickerStyle">@style/GlipWidget.datePickerStyle</item>
+    </style>
+
+    <style name="GlipTheme.TimePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">@color/colorPalettePrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="android:colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:textColor">@color/colorPalettePrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPaletteOnBgVI100</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPaletteOnBgVI100</item>
+        <item name="android:timePickerStyle">@style/GlipWidget.timePickerStyle</item>
+    </style>
+
+</resources>

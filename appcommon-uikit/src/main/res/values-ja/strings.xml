@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">キャンセル</string>
+    <string name="clear">クリア</string>
+    <string name="hour_format">%1$d時間</string>
+    <string name="hour_minute_format">%1$d時間%2$d分</string>
+    <string name="minute_second_format">%1$d分%2$d秒</string>
+    <string name="minute_format">%1$d分</string>
+    <string name="second_format">%1$d秒</string>
+    <string name="enable">有効化</string>
+    <string name="hello">こんにちは</string>
+    <string name="please_wait">お待ちください&#8230;</string>
+    <string name="messages_empty_start_conversation">同僚またはチームとの会話を開始します。</string>
+    <string name="network_error_tap_to_retry">ネットワークエラー。再試行するにはタップしてください。</string>
+    <string name="no_browser_app_found">ブラウザーアプリが見つかりません</string>
+    <string name="no_email_app_found">メールアプリが見つかりません</string>
+    <string name="no_internet_connection">インターネット接続なし</string>
+    <string name="no_internet_connection_message">ネットワーク接続を確認し、もう一度やり直してください。</string>
+    <string name="none">なし</string>
+    <string name="ok">OK</string>
+    <string name="open_in">次のアプリで開く&#8230;</string>
+    <string name="send_email_ellipsis">メールの送信&#8230;</string>
+    <string name="please_install_a_browser_app">ブラウザーアプリをインストールしてください。</string>
+    <string name="please_install_an_email_app">メールアプリをインストールしてください。</string>
+    <string name="today">今日</string>
+    <string name="tomorrow">明日</string>
+    <string name="yesterday">昨日</string>
+    <string name="remove">削除</string>
+    <string name="cannot_connect_to_server_title">サーバーを使用できません</string>
+    <string name="cannot_connect_to_server_content">申し訳ありません。サーバーで一時的に問題が発生しています。現在、解決に向けて鋭意努力しています。</string>
+    <string name="title_with_badge">%1$s(%2$s)</string>
+    <string name="show_colon">表示：</string>
+    <string name="single_item_with_toggle_on_description">%1$s、オン、切り替え</string>
+    <string name="single_item_with_toggle_off_description">%1$s、オフ、切り替え</string>
+    <string name="summary_item_with_toggle_on_description">%1$s、%2$s、オン、切り替え</string>
+    <string name="summary_item_with_toggle_off_description">%1$s、%2$s、オフ、切り替え</string>
+    <string name="sso_login_authentication_content">%1$sにアクセスするには、ユーザー名とパスワードが必要です</string>
+    <string name="authentication_required">認証が必要です</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="sign_in">サインイン</string>
+    <plurals name="how_seconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="other">%1$d時間</item>
+    </plurals>
+</resources>

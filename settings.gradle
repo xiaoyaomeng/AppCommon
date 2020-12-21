@@ -1,1 +1,2 @@
-include ':app', ':appcommon-utils', ':appcommon-widgets', ':appcommon-network', ':appcommon-module'
+include ':uikit'
+include ':app', ':appcommon-utils', ':appcommon-widgets', ':appcommon-network', ':appcommon-module', ':appcommon-uikit'

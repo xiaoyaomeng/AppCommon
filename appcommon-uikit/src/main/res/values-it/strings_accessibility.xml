@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">indietro</string>
+    <string name="accessibility_not_selected_item">Non selezionato, %1$s</string>
+    <string name="accessibility_selected_item">Selezionato, %1$s</string>
+    <string name="accessibility_next_keyboard">Tastiera successiva, %1$s</string>
+    <string name="accessibility_english_us">Inglese (Stati Uniti)</string>
+    <string name="accessibility_number_pad">tastierino numerico</string>
+    <string name="accessibility_filter_show_colon">Filtro, mostra:</string>
+    <string name="accessibility_more">Altro</string>
+    <string name="accessibility_close">Chiudi</string>
+</resources>

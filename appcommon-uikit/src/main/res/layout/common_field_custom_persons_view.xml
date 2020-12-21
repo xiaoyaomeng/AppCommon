@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glip.widgets.tokenautocomplete.ContactsAutoCompleteView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/persons_view"
+    style="@style/GlipWidget.MembersChipView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />

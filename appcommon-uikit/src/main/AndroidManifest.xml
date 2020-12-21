@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panghu.uikit">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application android:supportsRtl="true">
+
+        <service
+            android:name=".customtabs.KeepAliveService"
+            android:exported="true" />
+
+        <!-- Add android:configChanges="uiMode" in order to prevent crashes in Lollipop devices -->
+        <!-- TODO Should be removed after appcompat 1.2.0 released -->
+        <activity
+            android:name=".base.activity.WebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
+            android:launchMode="singleTop"/>
+
+        <activity android:name=".permission.PermissionHintActivity" />
+
+        <activity
+            android:name=".base.activity.GlipLoadingActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/GlipTheme.LoadingScreen" />
+
+    </application>
+
+</manifest>

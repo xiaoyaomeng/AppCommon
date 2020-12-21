@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">戻る</string>
+    <string name="accessibility_not_selected_item">未選択：%1$s</string>
+    <string name="accessibility_selected_item">選択済み：%1$s</string>
+    <string name="accessibility_next_keyboard">次のキーボード：%1$s</string>
+    <string name="accessibility_english_us">英語(米国)</string>
+    <string name="accessibility_number_pad">ナンバーパッド</string>
+    <string name="accessibility_filter_show_colon">フィルター、表示：</string>
+    <string name="accessibility_more">詳細</string>
+    <string name="accessibility_close">閉じる</string>
+</resources>

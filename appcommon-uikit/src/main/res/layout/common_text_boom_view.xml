@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/content_text_view"
+        style="@style/GlipWidget.TextView.Label4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:lineSpacingMultiplier="1.25"
+        android:padding="@dimen/dimen_16dp"
+        android:singleLine="false"
+        android:textColor="@color/colorPaletteOnBgIII300" />
+
+</FrameLayout>

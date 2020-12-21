@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/empty_title_text"
+        style="@style/GlipWidget.TextView.SubHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/hello"
+        android:textSize="@dimen/text_size_x_medium" />
+
+    <TextView
+        android:id="@+id/empty_content_text"
+        style="@style/GlipWidget.TextView.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_description_margin"
+        android:gravity="center"
+        android:text="@string/messages_empty_start_conversation"
+        android:textSize="@dimen/text_size_medium" />
+
+    <Button
+        android:id="@+id/empty_button"
+        style="@style/GlipWidget.Button"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/empty_button_margin"
+        android:minWidth="@dimen/empty_button_min_width"
+        android:paddingStart="@dimen/empty_button_padding"
+        android:paddingEnd="@dimen/empty_button_padding"
+        android:textSize="@dimen/text_size_x_medium"
+        android:visibility="gone" />
+
+</LinearLayout>

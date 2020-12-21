@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Abbrechen</string>
+    <string name="clear">Löschen</string>
+    <string name="hour_format">%1$d Std</string>
+    <string name="hour_minute_format">%1$d Std. %2$d Min.</string>
+    <string name="minute_second_format">%1$d Min. %2$d Sek.</string>
+    <string name="minute_format">%1$d Min.</string>
+    <string name="second_format">%1$d Sek.</string>
+    <string name="enable">Aktivieren</string>
+    <string name="hello">Hallo</string>
+    <string name="please_wait">Bitte warten &#8230;</string>
+    <string name="messages_empty_start_conversation">Beginnen Sie eine Unterhaltung mit einem Kollegen oder Team.</string>
+    <string name="network_error_tap_to_retry">Netzwerkfehler – tippen, um den Vorgang zu wiederholen.</string>
+    <string name="no_browser_app_found">Keine Browser-App gefunden</string>
+    <string name="no_email_app_found">Keine E-Mail-App gefunden</string>
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+    <string name="no_internet_connection_message">Prüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.</string>
+    <string name="none">Keine</string>
+    <string name="ok">OK</string>
+    <string name="open_in">Öffnen in &#8230;</string>
+    <string name="send_email_ellipsis">E-Mail senden &#8230;</string>
+    <string name="please_install_a_browser_app">Bitte installieren Sie eine Browser-App.</string>
+    <string name="please_install_an_email_app">Bitte installieren Sie eine E-Mail-App.</string>
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="yesterday">Gestern</string>
+    <string name="remove">Entfernen</string>
+    <string name="cannot_connect_to_server_title">Server nicht verfügbar</string>
+    <string name="cannot_connect_to_server_content">Es liegt derzeit ein Serverproblem vor. Wir arbeiten bereits daran, es zu beheben.</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">Anzeigen:&#160;</string>
+    <string name="single_item_with_toggle_on_description">%1$s, EIN, Wechsel</string>
+    <string name="single_item_with_toggle_off_description">%1$s, AUS, Wechsel</string>
+    <string name="summary_item_with_toggle_on_description">%1$s,%2$s, EIN, Wechsel</string>
+    <string name="summary_item_with_toggle_off_description">%1$s,%2$s, AUS, Wechsel</string>
+    <string name="sso_login_authentication_content">Für %1$s ist ein Benutzername und ein Kennwort erforderlich.</string>
+    <string name="authentication_required">Authentifizierung erforderlich</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Kennwort</string>
+    <string name="sign_in">Anmelden</string>
+    <plurals name="how_seconds">
+        <item quantity="one">%1$d Sekunde</item>
+        <item quantity="other">%1$d Sekunden</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="one">%1$d Minute</item>
+        <item quantity="other">%1$d Minuten</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="one">%1$d Stunde</item>
+        <item quantity="other">%1$d Stunden</item>
+    </plurals>
+</resources>

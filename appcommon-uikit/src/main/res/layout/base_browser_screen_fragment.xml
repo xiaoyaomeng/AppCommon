@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/browser_web_view"
+        style="?android:attr/webViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/browser_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/browser_tab_to_retry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/btn_tap_to_retry"
+            android:importantForAccessibility="no"/>
+
+        <TextView
+            style="@style/GlipWidget.TextView.Label2"
+            android:singleLine="false"
+            android:textColor="@color/colorPaletteOnBgIII200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/network_error_tap_to_retry" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GlipWidget.datePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">@color/colorPaletteBgIII</item>
+        <item name="android:headerMonthTextAppearance">@style/GlipWidget.DatePickerHeaderTextAppearance</item>
+    </style>
+
+    <style name="GlipWidget.timePickerStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">@color/colorPaletteBgIII</item>
+        <item name="android:numbersBackgroundColor">@color/colorPaletteBgIII</item>
+        <item name="android:headerTimeTextAppearance">@style/GlipWidget.TimePickerHeaderTextAppearance</item>
+    </style>
+
+    <style name="GlipWidget.DatePickerHeaderTextAppearance" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/colorPalettePrimary</item>
+    </style>
+
+    <style name="GlipWidget.TimePickerHeaderTextAppearance" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/colorPalettePrimary</item>
+    </style>
+
+    <style name="GlipWidget.Switch">
+        <item name="android:thumbTint">@color/color_settings_switch_thumb_selector</item>
+        <item name="android:trackTint">@color/color_settings_switch_track_selector</item>
+    </style>
+</resources>

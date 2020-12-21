@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="56dp"
+    android:orientation="horizontal"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+
+    <ImageView
+        android:id="@+id/icon_view"
+        android:layout_width="@dimen/dimen_18dp"
+        android:layout_height="@dimen/dimen_18dp"
+        android:layout_marginEnd="20dp"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/caption_text_view"
+        style="@style/GlipWidget.TextView.ListItemCaption"
+        android:textColor="@color/color_list_item_caption_selector"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true" />
+
+    <com.glip.widgets.icon.FontIconTextView
+        android:id="@+id/checked_view"
+        style="@style/GlipWidget.TextView.Label4"
+        android:textColor="@color/colorPaletteSecondary"
+        android:textSize="@dimen/font_icon_x_medium_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:importantForAccessibility="no"
+        android:text="@string/icon_done" />
+</LinearLayout>

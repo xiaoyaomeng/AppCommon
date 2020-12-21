@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="hour_format">%1$d hr</string>
+    <string name="hour_minute_format">%1$d hr %2$d min</string>
+    <string name="minute_second_format">%1$d min %2$d sec</string>
+    <string name="minute_format">%1$d min</string>
+    <string name="second_format">%1$d sec</string>
+    <string name="enable">Enable</string>
+    <string name="hello">Hello</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="messages_empty_start_conversation">Start a conversation with a colleague or team.</string>
+    <string name="network_error_tap_to_retry">Network error, tap to retry.</string>
+    <string name="no_browser_app_found">No browser app found</string>
+    <string name="no_email_app_found">No email app found</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_internet_connection_message">Please check your network connection and try again.</string>
+    <string name="none">None</string>
+    <string name="ok">OK</string>
+    <string name="open_in">Open in&#8230;</string>
+    <string name="send_email_ellipsis">Send email&#8230;</string>
+    <string name="please_install_a_browser_app">Please install a browser app.</string>
+    <string name="please_install_an_email_app">Please install an email app.</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="remove">Remove</string>
+    <string name="cannot_connect_to_server_title">Server unavailable</string>
+    <string name="cannot_connect_to_server_content">Sorry, we are having a temporary server issue. We are working hard to resolve it.</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">Show:&#160;</string>
+    <string name="single_item_with_toggle_on_description">%1$s, ON, Switch</string>
+    <string name="single_item_with_toggle_off_description">%1$s, OFF, Switch</string>
+    <string name="summary_item_with_toggle_on_description">%1$s, %2$s, ON, Switch</string>
+    <string name="summary_item_with_toggle_off_description">%1$s, %2$s, OFF, Switch</string>
+    <string name="sso_login_authentication_content">%1$s requires a username and password</string>
+    <string name="authentication_required">Authentication required</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <plurals name="how_seconds">
+        <item quantity="one">%1$d second</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_min_width">120dp</dimen>
+
+    <!-- Action bar -->
+    <dimen name="action_bar_height">64dp</dimen>
+</resources>

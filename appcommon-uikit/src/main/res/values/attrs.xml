@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="vertical_divider_padding" format="dimension" />
+    <attr name="horizontal_divider_padding" format="dimension" />
+
+    <declare-styleable name="PairLayout">
+        <attr name="vertical_divider_padding"/>
+        <attr name="horizontal_divider_padding"/>
+        <attr name="first_layout" format="reference"/>
+        <attr name="second_layout" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmptyView">
+        <attr name="vertical_divider_padding"/>
+        <attr name="horizontal_divider_padding"/>
+        <attr name="scrollable" format="boolean" />
+        <attr name="image_src" format="reference" />
+        <attr name="description_layout" format="reference"/>
+        <attr name="description_title" format="string"/>
+        <attr name="description_content" format="string"/>
+        <attr name="description_button" format="string"/>
+        <attr name="description_left_padding" format="dimension" />
+        <attr name="description_right_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterSpinner">
+        <attr name="android:entries" />
+        <attr name="android:entryValues" />
+        <attr name="fontIcons" format="string"/>
+        <attr name="accessibilitySuffix" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DisableAppearanceTextView">
+        <attr name="state_dim_appearance_enable" format="boolean" />
+    </declare-styleable>
+</resources>

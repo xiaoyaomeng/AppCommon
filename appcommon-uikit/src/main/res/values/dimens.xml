@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+
+    <!--general padding that follows material design-->
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_20dp">20dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_28dp">28dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_36dp">36dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_58dp">58dp</dimen> <!-- {@deprecated Not follow the material design} -->
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_68dp">68dp</dimen>
+    <dimen name="dimen_152dp">152dp</dimen>
+    <dimen name="dimen_240dp">240dp</dimen>
+
+    <!-- Default screen margins  -->
+    <dimen name="activity_horizontal_margin">@dimen/dimen_16dp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/dimen_8dp</dimen>
+    <dimen name="text_view_vertical_margin">@dimen/dimen_16dp</dimen>
+    <dimen name="text_view_horizontal_margin">@dimen/dimen_16dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_size_small">11sp</dimen>
+    <dimen name="text_size_x_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_x_medium">16sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_x_large">18sp</dimen>
+    <dimen name="text_size_header">20sp</dimen>
+    <dimen name="text_size_display1">24sp</dimen>
+
+    <!-- Font Icon Size -->
+    <dimen name="font_icon_small_size">8dp</dimen>
+    <dimen name="font_icon_x_small_size">12dp</dimen>
+    <dimen name="font_icon_medium_size">14dp</dimen>
+    <dimen name="font_icon_x_medium_size">16dp</dimen>
+    <dimen name="font_icon_large_size">17dp</dimen>
+    <dimen name="font_icon_x_large_size">18dp</dimen>
+    <dimen name="font_icon_header_size">20dp</dimen>
+    <dimen name="font_icon_display_size">24dp</dimen>
+    <dimen name="font_icon_xl_large_size">30dp</dimen>
+    <dimen name="font_icon_xxl_large_size">40dp</dimen>
+    <dimen name="bottom_sheet_icon_size">10dp</dimen>
+
+    <!-- Fab Size -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_icon_larger_size">28dp</dimen>
+    <dimen name="fab_badge_text_size">11dp</dimen>
+
+    <!-- App bar -->
+    <dimen name="app_bar_menu_option_padding">52dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
+
+    <!-- Action bar -->
+    <dimen name="action_bar_height">56dp</dimen>
+
+    <!-- Toolbar bar -->
+    <dimen name="toolbar_elevation">4.5dp</dimen>
+    <dimen name="toolbar_progress_spinner_size">20dp</dimen>
+    <dimen name="toolbar_progress_spinner_margin_left">10dp</dimen>
+
+    <!-- list -->
+    <dimen name="list_item_one_line_height">48dp</dimen>
+    <dimen name="list_item_one_line_large_height">66dp</dimen>
+    <dimen name="list_item_two_line_height">72dp</dimen>
+    <dimen name="list_item_left_part_width">56dp</dimen>
+
+    <!-- divider -->
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- tab item -->
+    <dimen name="tab_min_width">104dp</dimen>
+    <dimen name="tab_bar_height">48dp</dimen>
+
+    <!-- progress bar -->
+    <dimen name="progress_medium_size">25dp</dimen>
+    <dimen name="progress_large_size">50dp</dimen>
+
+    <!-- button  -->
+    <dimen name="long_button_width">270dp</dimen>
+    <dimen name="long_button_height">48dp</dimen>
+    <dimen name="button_corner_radius">2dp</dimen>
+    <dimen name="button_padding_vertical">4dp</dimen>
+    <dimen name="button_padding_horizontal">8dp</dimen>
+    <dimen name="compound_button_height">48dp</dimen>
+    <dimen name="switch_button_width">44dp</dimen>
+    <dimen name="switch_button_height">44dp</dimen>
+
+    <!-- banner item -->
+    <dimen name="banner_item_height">48dp</dimen>
+    <dimen name="banner_item_padding_end">16dp</dimen>
+    <dimen name="banner_item_padding_start">16dp</dimen>
+    <dimen name="banner_item_padding_top">8dp</dimen>
+    <dimen name="banner_item_padding_bottom">8dp</dimen>
+
+    <!-- empty view -->
+    <dimen name="empty_view_padding">20dp</dimen>
+    <dimen name="empty_description_margin">12dp</dimen>
+    <dimen name="empty_button_margin">24dp</dimen>
+    <dimen name="empty_button_min_width">140dp</dimen>
+    <dimen name="empty_button_padding">16dp</dimen>
+
+    <!-- bottom sheet -->
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <dimen name="bottom_sheet_item_horizontal_padding">28dp</dimen>
+    <dimen name="bottom_sheet_title_item_height">40dp</dimen>
+    <dimen name="bottom_sheet_item_height">48dp</dimen>
+    <dimen name="bottom_sheet_icon_width">72dp</dimen>
+
+    <!-- Filter -->
+    <dimen name="filter_icon_size">20dp</dimen>
+
+    <dimen name="signup_with_email_legal_term_size">10sp</dimen>
+    <dimen name="loading_more_height">60dp</dimen>
+
+    <dimen name="product_tour_tip_size">16dp</dimen>
+    <dimen name="page_index_text_size">11dp</dimen>
+    <dimen name="banner_text_size">14dp</dimen>
+
+    <dimen name="attachment_list_height">92dp</dimen>
+</resources>

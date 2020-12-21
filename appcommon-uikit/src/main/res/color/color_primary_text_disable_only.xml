@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:color="@color/colorPaletteBgI" android:state_checked="true" />
+
+    <item android:color="@color/colorPaletteOnBgI200" android:state_pressed="true" />
+
+    <item android:color="@color/colorPaletteOnBgIII400" android:state_enabled="false" />
+
+    <item android:color="@color/colorPaletteOnBgI200" />
+
+</selector>

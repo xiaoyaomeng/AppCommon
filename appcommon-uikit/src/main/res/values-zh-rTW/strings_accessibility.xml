@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">上一步</string>
+    <string name="accessibility_not_selected_item">未選取，%1$s</string>
+    <string name="accessibility_selected_item">已選取，%1$s</string>
+    <string name="accessibility_next_keyboard">下一個鍵盤，%1$s</string>
+    <string name="accessibility_english_us">英文（美國）</string>
+    <string name="accessibility_number_pad">數字鍵盤</string>
+    <string name="accessibility_filter_show_colon">篩選條件，顯示：</string>
+    <string name="accessibility_more">更多</string>
+    <string name="accessibility_close">關閉</string>
+</resources>

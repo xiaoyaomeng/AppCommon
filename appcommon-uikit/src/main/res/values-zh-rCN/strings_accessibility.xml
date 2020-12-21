@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">返回</string>
+    <string name="accessibility_not_selected_item">未选择，%1$s</string>
+    <string name="accessibility_selected_item">已选择，%1$s</string>
+    <string name="accessibility_next_keyboard">下一个键盘：%1$s</string>
+    <string name="accessibility_english_us">英文（美国）</string>
+    <string name="accessibility_number_pad">数字键盘</string>
+    <string name="accessibility_filter_show_colon">筛选、显示：</string>
+    <string name="accessibility_more">更多</string>
+    <string name="accessibility_close">关闭</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/colorPalettePrimary" android:state_checked="true" app:state_dim_appearance_enable="false" android:state_enabled="true" />
+    <item android:color="@color/colorPaletteBgIV" android:state_checked="false" app:state_dim_appearance_enable="false" android:state_enabled="true" />
+    <item android:color="@color/color40PercentPalettePrimary" android:state_checked="true" android:state_enabled="false" />
+    <item android:color="@color/color40PercentPalettePrimary" android:state_checked="true" app:state_dim_appearance_enable="true" />
+    <item android:color="@color/color40PercentPaletteBgIV" android:state_checked="false" android:state_enabled="false" />
+    <item android:color="@color/color40PercentPaletteBgIV" android:state_checked="false" app:state_dim_appearance_enable="true" />
+</selector>

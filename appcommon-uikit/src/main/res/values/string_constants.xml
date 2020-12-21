@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in_legal_terms_of_service_link" translatable="false">https://www.ringcentral.com/legal/rc-terms-of-service.html</string>
+    <string name="sign_in_privacy_note_link" translatable="false">https://www.ringcentral.com/legal/rc-privacy-notice.html</string>
+    <string name="sign_in_acceptable_use_policy_link" translatable="false">https://www.ringcentral.com/legal/acceptable-use-policy.html</string>
+</resources>

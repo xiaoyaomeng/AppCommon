@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="hour_format">%1$d 小時</string>
+    <string name="hour_minute_format">%1$d 小時 %2$d 分</string>
+    <string name="minute_second_format">%1$d 分 %2$d 秒</string>
+    <string name="minute_format">%1$d 分</string>
+    <string name="second_format">%1$d 秒</string>
+    <string name="enable">啟用</string>
+    <string name="hello">您好</string>
+    <string name="please_wait">請稍候&#8230;</string>
+    <string name="messages_empty_start_conversation">與同事或團隊開始對話。</string>
+    <string name="network_error_tap_to_retry">網路錯誤，請輕觸再試一次。</string>
+    <string name="no_browser_app_found">找不到瀏覽器應用程式</string>
+    <string name="no_email_app_found">找不到電子郵件應用程式</string>
+    <string name="no_internet_connection">無網際網路連線</string>
+    <string name="no_internet_connection_message">請檢查您的網路連線，然後再試一次。</string>
+    <string name="none">無</string>
+    <string name="ok">確定</string>
+    <string name="open_in">開啟方式&#8230;</string>
+    <string name="send_email_ellipsis">傳送電子郵件&#8230;</string>
+    <string name="please_install_a_browser_app">請安裝瀏覽器應用程式。</string>
+    <string name="please_install_an_email_app">請安裝電子郵件應用程式。</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="yesterday">昨天</string>
+    <string name="remove">移除</string>
+    <string name="cannot_connect_to_server_title">伺服器無法使用</string>
+    <string name="cannot_connect_to_server_content">抱歉，伺服器目前發生錯誤。我們正在努力解決。</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">顯示：</string>
+    <string name="single_item_with_toggle_on_description">%1$s、開啟、開關</string>
+    <string name="single_item_with_toggle_off_description">%1$s、關閉、開關</string>
+    <string name="summary_item_with_toggle_on_description">%1$s、%2$s、開啟、開關</string>
+    <string name="summary_item_with_toggle_off_description">%1$s、%2$s、關閉、開關</string>
+    <string name="sso_login_authentication_content">%1$s 需要使用者名稱和密碼</string>
+    <string name="authentication_required">需要驗證</string>
+    <string name="username">使用者名稱</string>
+    <string name="password">密碼</string>
+    <string name="sign_in">登入</string>
+    <plurals name="how_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+</resources>

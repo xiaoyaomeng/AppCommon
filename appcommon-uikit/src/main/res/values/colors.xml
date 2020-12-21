@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+
+    <!-- Primary button, clickable icon and toggle on. -->
+    <color name="colorPalettePrimary">#0684BD</color>
+    <!-- Primary button pressed status.-->
+    <color name="colorPalettePrimary100">#9CCFE6</color>
+
+    <!-- Selected item in the tab bar & Clickable text in conversation thread. -->
+    <color name="colorPaletteSecondary">#0684BD</color>
+    <!-- Secondary pressed status.-->
+    <color name="colorPaletteSecondary100">#9CCFE6</color>
+
+    <!-- BgI: Used in the header & tab under header background -->
+    <color name="colorPaletteBgI">#FFFFFF</color>
+    <!-- Used in the text which is selected on BgI-->
+    <color name="colorPaletteOnBgI100">#0684BD</color>
+    <!-- Title on BgI-->
+    <color name="colorPaletteOnBgI200">#2F2F2F</color>
+    <!-- Used in the text which is unselected on BgI-->
+    <color name="colorPaletteOnBgI300">#666666</color>
+    <!-- Action button on BgI-->
+    <color name="colorPaletteOnBgI400">#666666</color>
+
+    <!-- BgII: Tab background under header for iOS-->
+    <!-- <color name="colorPaletteBgII">#E6F2F8</color>-->
+    <!-- Icon & Clickable text & Selected item-->
+    <!-- <color name="colorPaletteOnBgII100">#066FAC</color>-->
+    <!-- Text color-->
+    <!-- <color name="colorPaletteOnBgII200">#2F2F2F</color>-->
+    <!-- Unselected item-->
+    <!-- <color name="colorPaletteOnBgII300">#666666</color>-->
+
+    <!-- BgIII: Used in the content background -->
+    <color name="colorPaletteBgIII">#FFFFFF</color>
+    <!-- Title & Clickable icon/text on BgIII-->
+    <color name="colorPaletteOnBgIII100">#0684BD</color>
+    <!-- Used in content on BgIII-->
+    <color name="colorPaletteOnBgIII200">#2F2F2F</color>
+    <!-- Used in sub-text, label on BgIII-->
+    <color name="colorPaletteOnBgIII300">#666666</color>
+    <color name="colorPaletteOnBgIII400">#999999</color>
+    <!-- Ghost in input field & Icon in the row on BgIII-->
+    <color name="colorPaletteOnBgIII500">#666666</color>
+
+    <!-- BgIV: Used in the section title background -->
+    <color name="colorPaletteBgIV">#F9F9F9</color>
+    <!-- Title & Clickable icon/text on BgIV-->
+    <color name="colorPaletteOnBgIV100">#0684BD</color>
+    <!-- Used in content on BgIV-->
+    <color name="colorPaletteOnBgIV200">#2F2F2F</color>
+    <!-- Used in sub-text, label on BgIV-->
+    <color name="colorPaletteOnBgIV300">#666666</color>
+    <color name="colorPaletteOnBgIV400">#999999</color>
+
+    <!-- BgV: Used in the profile background -->
+    <!-- <color name="colorPaletteBgV">#FCFDFD</color>-->
+    <!-- Clickable text in conversation thread.-->
+    <!-- <color name="colorPaletteOnBgV100">#066FAC</color>-->
+    <!-- Used in content.-->
+    <!-- <color name="colorPaletteOnBgV200">#2F2F2F</color>-->
+    <!-- Used in sub-text, label.-->
+    <!-- <color name="colorPaletteOnBgV300">#666666</color>-->
+
+    <!-- BgVI: Used in the meeting background -->
+    <color name="colorPaletteBgVI">#2F2F2F</color>
+    <!-- Used in text in meetings screen on BgVI-->
+    <color name="colorPaletteOnBgVI100">#FFFFFF</color>
+    <!-- Used in text in meetings sub content on BgVI-->
+    <color name="colorPaletteOnBgVI200">#E2E2E2</color>
+    <color name="colorPaletteOnBgVI300">#C7C7C7</color>
+
+    <!-- BgVII: Bubble background in the text conversation -->
+    <color name="colorPaletteBgVII">#E6F2F8</color>
+    <!-- Icon & Clickable text on BgVII-->
+    <color name="colorPaletteOnBgVII100">#0684BD</color>
+    <!-- Text color on BgVII-->
+    <color name="colorPaletteOnBgVII200">#2F2F2F</color>
+    <!-- Text color on BgVII-->
+    <color name="colorPaletteOnBgVII300">#666666</color>
+
+    <!-- BgVIII: Participate background in meeting-->
+    <color name="colorPaletteBgVIII">#555555</color>
+    <!-- Used in text in meetings screen on BgVIII-->
+    <color name="colorPaletteOnBgVIII100">#FFFFFF</color>
+    <!-- Sub-content on BgVIII-->
+    <color name="colorPaletteOnBgVIII200">#E2E2E2</color>
+
+    <!-- BgIX Content BG on complex image -->
+    <!-- Shadow -->
+    <color name="colorPaletteBgIX">#000000</color>
+    <!-- Text -->
+    <color name="colorPaletteBgIX100">#FFFFFF</color>
+    <!-- - Highlight of Share in RCV toolbar -->
+    <color name="colorPaletteOnBgIX200">#09BBFD</color>
+
+
+    <!-- Used in the divide-line color -->
+    <color name="colorPaletteLine">#E2E2E2</color>
+
+    <color name="colorPaletteAlert">#E6413C</color>
+    <color name="colorPaletteAlert100">#D44E4E</color>
+    <color name="colorPaletteAlert200">#F95B5C</color>
+    <color name="colorPaletteAlert300">#FDCACA</color>
+
+    <color name="colorPaletteSuccess">#4CD964</color>
+    <color name="colorPaletteSuccess100">#4C944C</color>
+    <color name="colorPaletteSuccess200">#5FB95C</color>
+    <color name="colorPaletteSuccess300">#B7F0C1</color>
+
+    <color name="colorPaletteWarning">#FF8800</color>
+    <color name="colorPaletteWarning100">#D97400</color>
+    <color name="colorPaletteWarning200">#FFBF2A</color>
+    <color name="colorPaletteWarning300">#FFE5AA</color>
+    <color name="colorPaletteWarning400">#FCF8DA</color>
+
+    <color name="colorPalettePresence100">#E1643C</color>
+    <color name="colorPalettePresence200">#4CD964</color>
+    <color name="colorPalettePresence300">#C7C7C7</color>
+
+    <!-- Avatar -->
+    <color name="colorPaletteDefaultAvatar">#8EC6E0</color>
+
+    <!-- Permission -->
+    <color name="colorPalettePermission">#EFF0FC</color>
+
+    <!-- Ripple on White background -->
+    <color name="colorPaletteRippleOnWhite">#1A2F2F2F</color>
+    <!-- Ripple on colorful background -->
+    <color name="colorPaletteRippleOnColorful">#4DFFFFFF</color>
+    <color name="colorRippleOnTabLayout">#0D2F2F2F</color> <!-- 50% of colorPaletteRippleOnWhite-->
+
+    <!-- Tasks -->
+    <color name="colorPaletteTaskGrey">#666666</color>
+    <color name="colorPaletteTaskBlack">#000000</color>
+    <color name="colorPaletteTaskRed">#CC0000</color>
+    <color name="colorPaletteTaskOrange">#FFA500</color>
+    <color name="colorPaletteTaskYellow">#BBAA00</color>
+    <color name="colorPaletteTaskGreen">#008000</color>
+    <color name="colorPaletteTaskBlue">#0000FF</color>
+    <color name="colorPaletteTaskIndigo">#4A0082</color>
+    <color name="colorPaletteTaskViolet">#EE82EE</color>
+
+    <color name="color60PercentPalettePrimary">#990684BD</color>
+    <color name="color40PercentPalettePrimary">#660684BD</color>
+    <color name="color24PercentPalettePrimary">#3D0684BD</color>
+    <color name="color40PercentPaletteOnBgVII200">#662F2F2F</color>
+    <color name="color40PercentPaletteOnBgVII300">#66666666</color>
+    <color name="color40PercentPaletteOnBgVI300">#66C7C7C7</color>
+    <color name="color40PercentPaletteBgIV">#66F9F9F9</color>
+    <color name="bg_customer_toast_color">#454647</color>
+
+</resources>

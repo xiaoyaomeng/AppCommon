@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="24dp"
+    android:paddingStart="24dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/icon_view"
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="20dp"
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/caption_text_view"
+            style="@style/GlipWidget.TextView.ListItemCaption"
+            android:textColor="@color/color_list_item_caption_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/icon_view"
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/value_text_view"
+            style="@style/GlipWidget.TextView.Label4"
+            android:textColor="@color/color_list_item_value_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/caption_text_view"
+            android:layout_below="@+id/caption_text_view"
+            android:duplicateParentState="true"
+            android:paddingTop="4dp" />
+
+    </RelativeLayout>
+
+    <com.glip.widgets.icon.FontIconTextView
+        android:id="@+id/checked_view"
+        style="@style/GlipWidget.TextView.Label2"
+        android:textColor="@color/colorPaletteSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:importantForAccessibility="no"
+        android:text="@string/icon_done"
+        android:textSize="@dimen/font_icon_medium_size"/>
+</LinearLayout>

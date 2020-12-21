@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorPaletteRippleOnWhite">
+    <item>
+        <selector>
+            <item
+                android:drawable="@android:color/transparent"
+                android:state_checked="false" />
+            <item
+                android:drawable="@color/colorPaletteLine"
+                android:state_checked="true" />
+        </selector>
+
+    </item>
+</ripple>
+
+

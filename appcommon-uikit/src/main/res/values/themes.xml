@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:ignore="all">
+
+    <style name="GlipV21Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPaletteOnBgIII200</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:datePickerDialogTheme">@style/GlipTheme.DatePickerDialog</item>
+        <item name="android:timePickerDialogTheme">@style/GlipTheme.TimePickerDialog</item>
+        <item name="android:colorEdgeEffect">@color/colorPaletteOnBgIII300</item>
+    </style>
+
+    <style name="GlipBaseTheme" parent="GlipV21Theme" />
+
+    <!-- Default glip theme. -->
+    <style name="GlipTheme" parent="GlipBaseTheme">
+
+        <item name="colorPrimary">@color/colorPaletteBgI</item>
+        <item name="colorPrimaryDark">@color/colorPaletteBgI</item>
+        <item name="colorAccent">@color/colorPalettePrimary</item>
+
+        <!-- Controls colors -->
+        <item name="colorControlNormal">@color/colorPaletteOnBgIII300</item>
+        <item name="colorControlActivated">@color/colorPalettePrimary</item>
+        <item name="colorControlHighlight">@color/colorPaletteRippleOnWhite</item>
+
+        <item name="colorButtonNormal">@color/colorPaletteOnBgIII300</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/colorPaletteBgIII</item>
+        <item name="android:colorBackground">@color/colorPaletteBgIII</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColorSecondary">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColor">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColorHint">@color/colorPaletteOnBgIII300</item>
+
+        <!-- Text styles -->
+        <item name="android:textAppearance">@style/GlipWidget.TextView</item>
+        <item name="android:editTextStyle">@style/GlipWidget.EditText</item>
+        <item name="android:progressBarStyle">@style/GlipWidget.ProgressBar</item>
+
+        <!-- Action Bar Styles -->
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="toolbarStyle">@style/GlipWidget.Toolbar</item>
+        <item name="alertDialogTheme">@style/GlipTheme.CompatAlertDialog</item>
+        <item name="android:alertDialogTheme">@style/GlipTheme.AlertDialog</item>
+
+        <!-- Fast scroll styles-->
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+
+        <item name="android:windowAnimationStyle">@style/GlipWidget.Animation</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/GlipWidget.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/GlipWidget.ActionModeCloseButton</item>
+    </style>
+
+    <style name="GlipTheme.Dark" >
+        <item name="colorControlNormal">@color/colorPaletteOnBgVI100</item>
+        <item name="android:statusBarColor">@color/colorPaletteBgVI</item>
+        <item name="android:windowBackground">@color/colorPaletteBgVI</item>
+    </style>
+
+    <style name="GlipTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/colorPaletteOnBgI200</item>
+        <item name="actionMenuTextColor">@color/color_primary_text_disable_only</item>
+        <item name="colorControlActivated">@color/colorPalettePrimary</item>
+        <item name="colorControlNormal">@color/colorPaletteOnBgI300</item>
+        <item name="colorControlHighlight">@color/colorPaletteRippleOnWhite</item>
+    </style>
+
+    <style name="GlipTheme.Dark.AppBarOverlay" parent="GlipTheme.AppBarOverlay">
+        <item name="android:textColorPrimary">@color/colorPaletteBgI</item>
+        <item name="colorControlNormal">@color/colorPaletteBgI</item>
+    </style>
+
+    <style name="GlipTheme.TranslucentStatus">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="GlipTheme.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="GlipTheme.TranslucentScreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="GlipTheme.LoadingScreen" parent="GlipTheme.TranslucentScreen">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="GlipTheme.AlertDialog" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/colorPalettePrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="android:colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:windowTitleStyle">@style/GlipWidget.DialogTitle</item>
+        <item name="android:buttonStyle">@style/GlipWidget.DialogButton</item>
+    </style>
+
+    <style name="GlipTheme.CompatAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPalettePrimary</item>
+        <item name="colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:windowTitleStyle">@style/GlipWidget.DialogTitle</item>
+        <item name="buttonBarButtonStyle">@style/GlipWidget.ButtonBarButtonStyle</item>
+    </style>
+
+
+    <style name="GlipTheme.DatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">@color/colorPalettePrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="android:colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPaletteOnBgIII300</item>
+        <item name="android:datePickerStyle">@style/GlipWidget.datePickerStyle</item>
+    </style>
+
+    <style name="GlipTheme.LightToolbar">
+        <item name="android:textColorSecondary">@color/colorPaletteOnBgIII200</item>
+        <item name="colorControlNormal">@color/colorPaletteOnBgIII200</item>
+    </style>
+
+    <style name="GlipTheme.TimePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">@color/colorPalettePrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPalettePrimary</item>
+        <item name="android:colorAccent">@color/colorPalettePrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPaletteOnBgIII200</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPaletteOnBgIII300</item>
+        <item name="android:timePickerStyle">@style/GlipWidget.timePickerStyle</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_back">zurück</string>
+    <string name="accessibility_not_selected_item">Nicht ausgewählt,%1$s</string>
+    <string name="accessibility_selected_item">Ausgewählt,%1$s</string>
+    <string name="accessibility_next_keyboard">Nächste Tastatur, %1$s</string>
+    <string name="accessibility_english_us">Deutsch (DE)</string>
+    <string name="accessibility_number_pad">Ziffernblock</string>
+    <string name="accessibility_filter_show_colon">Filter, anzeigen:</string>
+    <string name="accessibility_more">Mehr</string>
+    <string name="accessibility_close">Schließen</string>
+</resources>

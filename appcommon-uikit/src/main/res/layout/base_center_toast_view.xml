@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_text_view"
+    style="@style/GlipWidget.TextView.Banner"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toast_corner"
+    android:gravity="center"
+    android:paddingBottom="32dp"
+    android:paddingEnd="32dp"
+    android:paddingStart="32dp"
+    android:paddingTop="32dp"
+    android:singleLine="false" />

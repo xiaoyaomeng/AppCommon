@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content_text"
+        style="@style/GlipWidget.TextView.Label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="@string/sso_login_authentication_content" />
+
+    <TextView
+        android:id="@+id/username_text"
+        style="@style/GlipWidget.TextView.Label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:labelFor="@id/username_edit"
+        android:text="@string/username"
+        android:textColor="@color/colorPaletteOnBgIII300" />
+
+    <EditText
+        android:id="@+id/username_edit"
+        style="@style/GlipWidget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/password_text"
+        style="@style/GlipWidget.TextView.Label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:labelFor="@id/password_edit"
+        android:text="@string/password"
+        android:textColor="@color/colorPaletteOnBgIII300" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        style="@style/GlipWidget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4dp"
+        android:inputType="textPassword" />
+
+</LinearLayout>

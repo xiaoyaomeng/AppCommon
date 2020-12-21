@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Annuler</string>
+    <string name="clear">Effacer</string>
+    <string name="hour_format">%1$d h</string>
+    <string name="hour_minute_format">%1$d h %2$d min</string>
+    <string name="minute_second_format">%1$d min %2$d sec</string>
+    <string name="minute_format">%1$d min</string>
+    <string name="second_format">%1$d s</string>
+    <string name="enable">Activer</string>
+    <string name="hello">Bonjour</string>
+    <string name="please_wait">Veuillez patienter&#8230;</string>
+    <string name="messages_empty_start_conversation">Commencer une conversation avec un collègue ou une équipe.</string>
+    <string name="network_error_tap_to_retry">Erreur liée au réseau. Toucher pour réessayer.</string>
+    <string name="no_browser_app_found">Aucune application de navigation trouvée</string>
+    <string name="no_email_app_found">Aucune application de courriel trouvée</string>
+    <string name="no_internet_connection">Aucune connexion Internet</string>
+    <string name="no_internet_connection_message">Veuillez vérifier votre connexion réseau et réessayer.</string>
+    <string name="none">Aucun</string>
+    <string name="ok">D’accord</string>
+    <string name="open_in">Ouvrir dans&#8230;</string>
+    <string name="send_email_ellipsis">Envoyer un courriel&#8230;</string>
+    <string name="please_install_a_browser_app">Veuillez installer une application de navigation.</string>
+    <string name="please_install_an_email_app">Veuillez installer une application de courriel.</string>
+    <string name="today">Aujourd’hui</string>
+    <string name="tomorrow">Demain</string>
+    <string name="yesterday">Hier</string>
+    <string name="remove">Supprimer</string>
+    <string name="cannot_connect_to_server_title">Serveur non disponible</string>
+    <string name="cannot_connect_to_server_content">Désolé, notre serveur connaît un problème temporaire. Nous travaillons fort pour le résoudre.</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">Afficher :&#160;</string>
+    <string name="single_item_with_toggle_on_description">%1$s, ON, commutateur</string>
+    <string name="single_item_with_toggle_off_description">%1$s, OFF, commutateur</string>
+    <string name="summary_item_with_toggle_on_description">%1$s, %2$s, ON, commutateur</string>
+    <string name="summary_item_with_toggle_off_description">%1$s, %2$s, OFF, commutateur</string>
+    <string name="sso_login_authentication_content">%1$s exige un nom d’utilisateur et un mot de passe</string>
+    <string name="authentication_required">Authentification requise</string>
+    <string name="username">Nom d’utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="sign_in">Connexion</string>
+    <plurals name="how_seconds">
+        <item quantity="one">%1$d seconde</item>
+        <item quantity="other">%1$d secondes</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="one">%1$d heure</item>
+        <item quantity="other">%1$d heures</item>
+    </plurals>
+</resources>

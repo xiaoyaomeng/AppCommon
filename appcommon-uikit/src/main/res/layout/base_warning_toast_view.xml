@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp">
+    <TextView
+        android:id="@+id/toast_text_view"
+        style="@style/GlipWidget.TextView.Banner.Warning"
+        android:gravity="start|center_vertical"
+        android:singleLine="false"/>
+</LinearLayout>

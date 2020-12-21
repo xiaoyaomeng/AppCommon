@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Limpar</string>
+    <string name="hour_format">%1$d hora</string>
+    <string name="hour_minute_format">%1$d hora %2$d minuto</string>
+    <string name="minute_second_format">%1$d minuto %2$d segundo</string>
+    <string name="minute_format">%1$d minuto</string>
+    <string name="second_format">%1$d segundo</string>
+    <string name="enable">Habilitar</string>
+    <string name="hello">Olá</string>
+    <string name="please_wait">Aguarde&#8230;</string>
+    <string name="messages_empty_start_conversation">Inicie uma conversa com um colega de trabalho ou equipe.</string>
+    <string name="network_error_tap_to_retry">Erro de rede, toque para tentar novamente.</string>
+    <string name="no_browser_app_found">Nenhum aplicativo de navegador encontrado</string>
+    <string name="no_email_app_found">Nenhum aplicativo de email encontrado</string>
+    <string name="no_internet_connection">Sem conexão à Internet</string>
+    <string name="no_internet_connection_message">Verifique a conexão de rede e tente novamente.</string>
+    <string name="none">Nenhum</string>
+    <string name="ok">OK</string>
+    <string name="open_in">Abrir em&#8230;</string>
+    <string name="send_email_ellipsis">Enviar email&#8230;</string>
+    <string name="please_install_a_browser_app">Instale um aplicativo de navegador.</string>
+    <string name="please_install_an_email_app">Instale um aplicativo de email.</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="yesterday">Ontem</string>
+    <string name="remove">Remover</string>
+    <string name="cannot_connect_to_server_title">Servidor indisponível</string>
+    <string name="cannot_connect_to_server_content">Desculpe, estamos com um problema temporário no servidor. Estamos trabalhando para resolvê-lo.</string>
+    <string name="title_with_badge">%1$s (%2$s)</string>
+    <string name="show_colon">Mostrar:&#160;</string>
+    <string name="single_item_with_toggle_on_description">%1$s, ATIVAR, alternar</string>
+    <string name="single_item_with_toggle_off_description">%1$s, DESATIVAR, alternar</string>
+    <string name="summary_item_with_toggle_on_description">%1$s, %2$s, ATIVAR, alternar</string>
+    <string name="summary_item_with_toggle_off_description">%1$s, %2$s, DESATIVAR, alternar</string>
+    <string name="sso_login_authentication_content">%1$s precisa de nome de usuário e senha</string>
+    <string name="authentication_required">Autenticação obrigatória</string>
+    <string name="username">Nome de usuário</string>
+    <string name="password">Senha</string>
+    <string name="sign_in">Entrar</string>
+    <plurals name="how_seconds">
+        <item quantity="one">%1$d segundo</item>
+        <item quantity="other">%1$d segundos</item>
+    </plurals>
+    <plurals name="how_minutes">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+    <plurals name="how_hours">
+        <item quantity="one">%1$d hora</item>
+        <item quantity="other">%1$d horas</item>
+    </plurals>
+</resources>

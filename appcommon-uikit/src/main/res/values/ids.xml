@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="stub_progress_bar" type="id" />
+    <item name="stub_empty_view" type="id" />
+    <item name="banner_container" type="id" />
+    <item name="toolbar_scroll_view" type="id" />
+    <item name="recycler_view" type="id" />
+    <item name="refresh_layout" type="id" />
+    <item name="fragment_container" type="id" />
+</resources>
